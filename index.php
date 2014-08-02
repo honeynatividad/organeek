@@ -2,8 +2,9 @@
 include_once 'config.php';
 include_once 'admin/include/config.php';
 include_once 'class/class_recipe.php';
+include_once 'class/class_blog.php';
 $recipe = new Recipe();
-
+$blog = new Blog();
 
 ?>
 <!DOCTYPE html>

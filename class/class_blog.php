@@ -47,4 +47,18 @@ Class Blog{
             
         }
     }
+    public function blogRecent(){
+        $i=0;
+        $list = array();
+        $search = mysql_query("SELECT * FROM blogs WHERE status=1 ORDER BY created DESC");
+        while($row = mysql_fetch_array($search)){
+            $list[$i]['title'] = $row['title'];
+            $list[$i]['photo'] = $row['photo'];
+            $list[$i]['id'] = $row['blog_id'];
+            
+            $i++;
+        }
+        return $list;
+        
+    }
 }
