@@ -1,5 +1,15 @@
     <div class="banner-top"> 
         <div class="container">
+            <!-- Home Logo-->
+            <div class="col-md-4 col-sm-4 hidden-lg hidden-md hidden-sm">
+                <div class="logo-sm">
+                    <a href="<?php echo $base_url.'index.php' ?>">
+                    <img class="img-responsive" src="img/logo/ologo2.png" alt="Organeek"/>
+                    </a>
+                </div>
+            </div>
+            <!--//Home Logo//-->
+
             <div class="col-md-4 col-sm-4">
                 <!-- Header top About -->
                 <div class="header-contact">
@@ -31,11 +41,7 @@
                         <a class="rss" href="#"></a>
                 </div>
         </div>
-        <div class="col-md-4 col-sm-4 hidden-lg hidden-sm">
-            <?php include 'menu.php'; ?>
-        <!-- //Header Social //-->
-        </div>
-        </div>
-        <div class="container clearfix"></div>
     </div>
-
+    <div class="container clearfix"></div>
+</div>
+<!-- //Header Social //-->
