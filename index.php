@@ -954,6 +954,12 @@ $blog = new Blog();
                                                             <div class="carousel-inner">
                                                                 <div class="item active">
                                                                     <div class="row">
+                                                                        <?php 
+                                                                        $a=$blog->blogRecent();
+                                                                        for($i=0;$i<3;$i++){
+                                                                            //echo $a[$i]['title'];
+                                                                        
+                                                                        ?>
                                                                         <div class="col-md-3">
                                                                             <div class="recipe-box-index">
                                                                                 <!--Recipe Photo-->
@@ -964,16 +970,19 @@ $blog = new Blog();
 
                                                                                     <div class="feature-content">
                                                                                         <h3 class="h3-body-title color-text">
-                                                                                            <a href="#"> ASTOUNDING BENEFITS AND PROPERTIES OF HONEY</a>
+                                                                                            <a href="<?php echo $base_url."blog/all/blog-single.php?id=".$a[$i]['blog_id'] ?>"> <?php echo $a[$i]['title']; ?></a>
                                                                                         </h3>
                                                                                         <div class="recipe-overflow">
                                                                                             <p>
-                                                                                                The natural by-product of flower nectar made by bees has been part of our history dated as far as 8,000 years ago with its astounding value in traditional medicine.
-                                                                                                Natural or raw honey that was not subjected to extreme heat or any chemical filtering has more than 200 substances that have myriad benefits to one’s  overall physiological and overall health.
+                                                                                            <?php
+                                                                                            $desc = myTruncate($a[$i]['body'],300);
+                                                                                            echo $desc; 
+                                                                                             ?>
+                                                                                                
                                                                                             </p>
                                                                                         </div>
                                                                                         <div class="read-more">
-                                                                                            <a href="#">Read more...</a>
+                                                                                            <a href="<?php echo $base_url."blog/all/blog-single.php?id=".$a[$i]['blog_id'] ?>">Read more...</a>
                                                                                         </div>
                                                                                         <br>
                                                                                         <!--Recipe Summary-->    
@@ -994,90 +1003,8 @@ $blog = new Blog();
                                                                                </div>
                                                                             </div>
                                                                         </div>
-                                                                        
-                                                                        <div class="col-md-3">
-                                                                            <div class="recipe-box-index">
-                                                                                <!--Recipe Photo-->
-                                                                                <div class="feature">
-                                                                                    <div class="img-overlay1 img-responsive">
-                                                                                        <img src="img/toothpaste.jpg" alt="">
-                                                                                    </div>
-
-                                                                                    <div class="feature-content">
-                                                                                        <h3 class="h3-body-title color-text">
-                                                                                            <a href="#"> ASTOUNDING BENEFITS AND PROPERTIES OF HONEY</a>
-                                                                                        </h3>
-                                                                                        <div class="recipe-overflow">
-                                                                                            <p>
-                                                                                                The natural by-product of flower nectar made by bees has been part of our history dated as far as 8,000 years ago with its astounding value in traditional medicine.
-                                                                                                Natural or raw honey that was not subjected to extreme heat or any chemical filtering has more than 200 substances that have myriad benefits to one’s  overall physiological and overall health.
-                                                                                            </p>
-                                                                                        </div>
-                                                                                        <div class="read-more">
-                                                                                            <a href="#">Read more...</a>
-                                                                                        </div>
-                                                                                        <br>
-                                                                                        <!--Recipe Summary-->    
-                                                                                        <div class="feature-details-box">
-                                                                                            <div class="feature-details"
-                                                                                                <i class="fa fa-user"></i></a>  
-                                                                                                 <a href="#">Haze</a>  
-                                                                                                <span class="details-seperator"></span>
-
-                                                                                                <a href="#"><i class="fa fa-comment"></i><span> &nbsp;4</span></a>
-                                                                                                <span class="details-seperator"></span>
-                                                                                                    <div class="fa fa-clock-o">
-                                                                                                        July 28
-                                                                                                    </div>
-                                                                                            </div>
-                                                                                        </div>      
-                                                                                     </div>
-                                                                               </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="col-md-3">
-                                                                             <div class="recipe-box-index">
-                                                                                <!--Recipe Photo-->
-                                                                                <div class="feature">
-                                                                                    <div class="img-overlay1 img-responsive">
-                                                                                        <img src="img/toothpaste.jpg" alt="">
-                                                                                    </div>
-
-                                                                                    <div class="feature-content">
-                                                                                        <h3 class="h3-body-title color-text">
-                                                                                            <a href="#"> ASTOUNDING BENEFITS AND PROPERTIES OF HONEY</a>
-                                                                                        </h3>
-                                                                                        <div class="recipe-overflow">
-                                                                                            <p>
-                                                                                                The natural by-product of flower nectar made by bees has been part of our history dated as far as 8,000 years ago with its astounding value in traditional medicine.
-                                                                                                Natural or raw honey that was not subjected to extreme heat or any chemical filtering has more than 200 substances that have myriad benefits to one’s  overall physiological and overall health.
-                                                                                            </p>
-                                                                                        </div>
-                                                                                        <div class="read-more">
-                                                                                            <a href="#">Read more...</a>
-                                                                                        </div>
-                                                                                        <br>
-                                                                                        <!--Recipe Summary-->    
-                                                                                        <div class="feature-details-box">
-                                                                                            <div class="feature-details"
-                                                                                                <i class="fa fa-user"></i></a>  
-                                                                                                 <a href="#">Haze</a>  
-                                                                                                <span class="details-seperator"></span>
-
-                                                                                                <a href="#"><i class="fa fa-comment"></i><span> &nbsp;4</span></a>
-                                                                                                <span class="details-seperator"></span>
-                                                                                                    <div class="fa fa-clock-o">
-                                                                                                        July 28
-                                                                                                    </div>
-                                                                                            </div>
-                                                                                        </div>      
-                                                                                     </div>
-                                                                               </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        
-                                                                        <div class="col-md-3">
+                                                                        <?php } ?>
+                                                                                                                                              <div class="col-md-3">
                                                                             <div class="recipe-box-index">
                                                                                 <!--Recipe Photo-->
                                                                                 <div class="feature">

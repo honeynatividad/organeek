@@ -54,8 +54,8 @@ Class Blog{
         while($row = mysql_fetch_array($search)){
             $list[$i]['title'] = $row['title'];
             $list[$i]['photo'] = $row['photo'];
-            $list[$i]['id'] = $row['blog_id'];
-            
+            $list[$i]['blog_id'] = $row['blog_id'];
+            $list[$i]['body'] = $row['body'];
             $i++;
         }
         return $list;
