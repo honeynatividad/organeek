@@ -1115,8 +1115,9 @@ table { background: #fff; }
 	font-family: 'Dancing Script', sans-serif;
 	font-size: 46px;
 	font-weight: bold;
-        color: #959595;
-        text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+        color: #8ace19;
+        text-shadow: 0px 1px 1px #4d4d4d;
+	
 }
 
 .default-heading p{
@@ -1443,6 +1444,7 @@ table { background: #fff; }
         background: #8ac317;  
         width: 100%;
 }
+
 ul.box {
         position: relative;
         z-index: 1; /* prevent shadows falling behind containers with backgrounds */
@@ -3495,13 +3497,7 @@ margin: 0 auto;
 	.inner-page .error-content h3 span{ top: -30px; }
 	.inner-page .checkout .sidebar-item h5 { margin-bottom: 5px; font-size: 18px;}
 
-        .center {
-            margin-left: auto;
-            margin-right: auto;
-            width: 70%;
-        }
-
-
+        
         .box1 {
             width: 100%;
             margin: 0 auto;
@@ -3523,6 +3519,16 @@ margin: 0 auto;
             line-height: 30px !important;
             padding-left: 10px !important;
         }
+        
+        .recipe-box-index{ 
+            max-width: 400px !important;
+            margin: 10px !important;
+        }
+        
+        .recipe-box {
+           
+        }
+        
  }
 /*
  * Tablets
@@ -3575,7 +3581,10 @@ margin: 0 auto;
             height: auto;
         }
         
-        
+        .recipe-box-index{ 
+            max-width: auto;
+            margin: 20px !important;
+        }
         .recipe-index-image {
             max-width: 400px;
             margin: 0 auto;
@@ -3594,7 +3603,7 @@ margin: 0 auto;
         }
         
         .services_item1 {
-            width: 100%;
+            width: auto;
         }
         
         .tp-banner-container {
@@ -3756,9 +3765,9 @@ margin: 0 auto;
 	}
        
 	.well{
-		max-width: 400px;
+		width: auto;
 		margin: 0 auto;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
        
 }
@@ -3810,7 +3819,7 @@ margin: 0 auto;
 		text-align: center;
 	}
 	
-	.pricing .pricing-item .pricing-item-details a.view-link{ margin-right: 7px; }
+       .pricing .pricing-item .pricing-item-details a.view-link{ margin-right: 7px; }
 	.pricing .pricing-item .pricing-item-details a.btn{
 		float: none !important;
                 
@@ -4131,13 +4140,14 @@ Blog Single
     box-shadow:0px 1px 1px #4d4d4d;
 }    
 .recipe-box-index { 
-    margin: 10px 20px;
-    padding: 15px 12px 10px 20px;
+    margin: 5px;
+    padding: 10px;
     background: #ffffff;
     border-radius: 6px;
     border-top: 1px solid #ccc;
     box-shadow:0px 1px 1px #4d4d4d;
-}   
+    width: auto;
+ }   
 .starthere {
     padding: 2px;
     max-width: 150px;
@@ -4342,13 +4352,17 @@ img.size {
 .feature .feature-details {
     color: #508706; 
     font-size: 12px; 
-    background: #f7f7f7; 
-    line-height: 39px; 
+    font-weight: bold;
+    background: #ccee81; 
+    line-height: 35px; 
     height: 35px;  
-    margin-right: -12px; 
-    margin-left: -20px; 
     border-radius: 4px;
+    margin: -10px !important;
+    border: 1px solid #dedede;
+    text-align: center;
+    text-transform: uppercase;
 }
+
 .feature .feature-details .details-seperator { border-right: 1px solid #ccc; margin: 0 10px;
 }
 .feature .feature-details .feature-share { float: right;  padding-right: 10px;
@@ -4367,9 +4381,7 @@ img.size {
     max-width: 400px;
     display: block;
 }
-.feature .feature-content .color-text a:hover{ 
-    overflow: visible;
-}
+
 .read-more a{
     display: inline-block;
     border-bottom: 1px solid #508706;

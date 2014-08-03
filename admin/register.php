@@ -7,6 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $admin->username = mysql_escape_string($_POST['username']);
     $admin->password = mysql_escape_string($_POST['password']);
     $admin->repassword =  mysql_escape_string($_POST['repassword']);
+    $admin->email_add = mysql_escape_string($_POST['email_add']);
+    $admin->role = mysql_escape_string($_POST['role']);
     $admin->adminAddUser();
 }
 ?>
@@ -45,12 +47,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="form-group">
                         <input type="password" name="repassword" class="form-control" placeholder="Retype password"/>
                     </div>
+                    <div class="form-group">
+                        <input type="email" name="email_add" class="form-control" placeholder="Email add"/>
+                    </div> 
+                    <div class="form-group">
+                        <label>Role</label>
+                        <select class="form-control" name="role">                                                        
+                            <option value="Contributor">Contributor</option>                            
+                        </select>
+                    </div>
                 </div>
                 <div class="footer">                    
 
                     <button type="submit" class="btn bg-olive btn-block">Sign me up</button>
 
-                    <a href="login.html" class="text-center">I already have a membership</a>
+                    <a href="login.php" class="text-center">I already have a membership</a>
                 </div>
             </form>
 

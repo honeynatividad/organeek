@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'class/class_admin.php';
 include_once 'include/config.php';
 $admin = new Admin();

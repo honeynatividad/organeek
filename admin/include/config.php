@@ -10,7 +10,7 @@ define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'organeek');
-
+$base_url = 'http://localhost/organeek/';
 class DB_Class {
 
     function __construct() {

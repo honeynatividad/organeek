@@ -626,7 +626,7 @@ $blog = new Blog();
                                             <p>Only the most natural, environment-friendly & cost-effective recipe to a healthier lifestyle! Making your own skin care products has never been this easy and cheap!</p>
                                     </div>
                                     <!-- Carousel-->
-                                    <div class="well padd4">
+                                    <div class="well">
                                         <div id="myCarousel" class="carousel slide">
                                             <!-- Carousel items -->
                                             <div class="carousel-inner">
@@ -958,7 +958,6 @@ $blog = new Blog();
                                                                         $a=$blog->blogRecent();
                                                                         for($i=0;$i<3;$i++){
                                                                             //echo $a[$i]['title'];
-                                                                        
                                                                         ?>
                                                                         <div class="col-md-3">
                                                                             <div class="recipe-box-index">
