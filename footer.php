@@ -1,6 +1,6 @@
     
     <div class="footer">
-    <br>
+        <br>
     <div class="container">
             <div class="row">
                     <div class="col-md-3 col-sm-6">
@@ -57,6 +57,10 @@
                                     <a href="#"><img class="dish img-responsive" src="<?php echo $base_url ?>img/dish/dish1.jpg" alt="" /></a>
                                     <a href="#"><img class="dish img-responsive" src="<?php echo $base_url ?>img/dish/dish1.jpg" alt="" /></a>
                                     <div class="padd1"></div>
+                                                    <h4>Contribute For Us</h4>
+                                                    <p> Share your recipes and experience just by simply registering in 2 simple steps! </p>
+                                                    <br>
+                                                    <button class="btn btn-danger" type="button">Register</button>
                             </div> <!--//Footer widget//-->
                     </div>
                     <div class="clearfix visible-sm"></div>
@@ -81,31 +85,31 @@
                             </div> <!--/ Footer widget end -->
                     </div>
                     <div class="col-md-3 col-sm-6">
-                            <!-- Footer widget -->
-                            <div class="footer-widget">
-                                    <!-- Heading -->
-                                    <h4>Connect</h4>
-                                    <div class="contact-details">
-                                            <!-- Address / Icon -->
-                                            <div class="fb-like-box" data-href="https://www.facebook.com/organeek" data-width="250px" data-height="auto" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-                                    </div>
-                                    <!-- Social media icon -->
-                                    <div class="social-banner">
-                                    <!-- Social -->
-                                    <div class="social-banner">
-                                        <a class="facebook" href="http://www.facebook.com/organeek"></a>
-                                        <a class="twitter" href="http://twitter.com/organeek"></a>
-                                        <a class="flickr" href="#"></a>
-                                        <a class="google" href="http://plus.google/organeek"></a>
-                                        <a class="pinterest" href="http://www.pinterest.com/organeeek/"></a>
-                                        <a class="vimeo" href="#"></a>
-                                        <a class="youtube" href="#"></a>
-                                        <a class="skype" href="skype:organeek.name?call"></a>
-                                        <a class="rss" href="#"></a>
-                                    </div>
+                        <!-- Footer widget -->
+                        <div class="footer-widget">
+                                <!-- Heading -->
+                                <h4>Connect</h4>
+                                <div class="contact-details">
+                                        <!-- Address / Icon -->
+                                        <div class="fb-like-box" data-href="https://www.facebook.com/organeek" data-width="250px" data-height="auto" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
                                 </div>
-                            </div> <!--/ Footer widget end -->
-                    </div>
+                                <!-- Social media icon -->
+                                <div class="social-banner pull-left">
+                                <!-- Social -->
+                                <div class="social-banner">
+                                    <a class="facebook" href="http://www.facebook.com/organeek"></a>
+                                    <a class="twitter" href="http://twitter.com/organeek"></a>
+                                    <a class="flickr" href="#"></a>
+                                    <a class="google" href="http://plus.google/organeek"></a>
+                                    <a class="pinterest" href="http://www.pinterest.com/organeeek/"></a>
+                                    <a class="vimeo" href="#"></a>
+                                    <a class="youtube" href="#"></a>
+                                    <a class="skype" href="skype:organeek.name?call"></a>
+                                    <a class="rss" href="#"></a>
+                                </div>
+                            </div>
+                        </div> <!--/ Footer widget end -->
+                </div>
             </div>
         </div>
             <!-- Copyright -->

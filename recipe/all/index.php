@@ -160,7 +160,7 @@ $recipe = new Recipe();
                                     <div class="col-md-9 col-sm-12">
                                     <?php foreach($recipe->recipeList() as $a): ?>
                                         <div class="col-md-4 col-sm-4 col-xs-12"> 
-                                            <div class="recipe-box">
+                                            <div class="recipe-box-index">
                                                 <!--Recipe Photo-->
                                                 <div class="feature">
                                                     <div class="img-overlay1 img-overlay img-responsive">
@@ -184,19 +184,19 @@ $recipe = new Recipe();
                                                         </div>
                                                         <br>
                                                     <!--Recipe Summary-->    
-                                                    <div class="feature-details-box">
-                                                        <div class="feature-details"
-                                                            <i class="fa fa-user"></i></a>  
-                                                             <a href="#">Haze</a>  
-                                                            <span class="details-seperator"></span>
+                                                    
+                                                    <div class="feature-details">
+                                                        <i class="fa fa-user"></i></a>  
+                                                         <a href="#">Haze</a>  
+                                                        <span class="details-seperator"></span>
 
-                                                            <a href="#"><i class="fa fa-comment"></i><span> &nbsp;4</span></a>
-                                                            <span class="details-seperator"></span>
-                                                                <div class="fa fa-clock-o">
-                                                                    July 28
-                                                                </div>
-                                                        </div>
-                                                    </div>      
+                                                        <a href="#"><i class="fa fa-comment"></i><span> &nbsp;4</span></a>
+                                                        <span class="details-seperator"></span>
+                                                            <div class="fa fa-clock-o">
+                                                                July 28
+                                                            </div>
+                                                    </div>
+                                                       
                                                  </div>
                                            </div>
                                         </div>
@@ -236,24 +236,22 @@ $recipe = new Recipe();
                     <!-- Scroll to top -->
                     <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
 		
-		<!-- Javascript files -->
-		<!-- jQuery -->
-		<script src="../../js/jquery.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="../../js/bootstrap.min.js"></script>
-		<!-- Pretty Photo JS -->
-		<script src="../../js/jquery.prettyPhoto.js"></script>
-		<!-- Respond JS for IE8 -->
-		<script src="../../js/respond.min.js"></script>
-		<!-- HTML5 Support for IE -->
-		<script src="../../js/html5shiv.js"></script>
-		<!-- Custom JS -->
-		<script src="../../js/custom.js"></script>
-                <!-- Star Rating-->
-                <script src="../../js/star-rating.js"></script>
-		<!-- JS code for this page -->
-		<script>
-		
-		</script>
+                    <!-- Javascript files -->
+                    <!-- jQuery -->
+                    <script src="../../js/jquery.js"></script>
+                    <!-- Bootstrap JS -->
+                    <script src="../../js/bootstrap.min.js"></script>
+                    <!-- Pretty Photo JS -->
+                    <script src="../../js/jquery.prettyPhoto.js"></script>
+                    <!-- Respond JS for IE8 -->
+                    <script src="../../js/respond.min.js"></script>
+                    <!-- HTML5 Support for IE -->
+                    <script src="../../js/html5shiv.js"></script>
+                    <!-- Custom JS -->
+                    <script src="../../js/custom.js"></script>
+                    <!-- Star Rating-->
+                    <script src="../../js/star-rating.js"></script>
+                    <!-- JS code for this page -->
+                    
 	</body>	
 </html>

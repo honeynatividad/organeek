@@ -115,7 +115,7 @@ include_once 'config.php';
                         <a href="index.php">
                                                 <!-- Logo area -->
                             <div class="logo">
-                                <img class="img-responsive" src="img/logo/ologo2.png" alt="Organeek"/>
+                                <img class="img-responsive" src="<?php echo $base_url ?>img/logo/ologo2.png" alt="Organeek"/>
                                 <p>Celebrating Beauty & Wellness</p>
                             </div>
                         </a>
@@ -130,111 +130,234 @@ include_once 'config.php';
         <!-- //Header Menu//-->
 	
          <!-- Start Here-->
-        <div class="col-md-12">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="default-heading padd5">
-                            <!-- Crown image -->
-                            <img class="img-responsive" src="img/crown.png" alt="Organeek" />
-                            <!-- Heading -->
-                            <h2>Start Here</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="default-heading">
+                        <!-- Crown image -->
+                        <img class="img-responsive" src="<?php echo $base_url ?>img/crown.png" alt="Organeek" />
+                        <!-- Heading -->
+                        <h2>Start Here</h2>
+                    </div>
+                        <p> Thank you for visiting Organeek website. Whether you’ve just stumbled accidentally on this site, referred by a friend, or on the precipice of annihilating all the chemicals from your personal care product, you’ve definitely  come to the right place. Organeek will be there for you every step of the way as we embark on healthier alternatives in beauty, home and lifestyle. </p>
+                        <br>
+                        <p>If you’re new to this website, I highly recommend reading the articles below. This part is not mandatory, but is highly recommended if you would like to have greater insights on natural DIY schemes and would want to know what to expect in this arena. I have divided these guidelines into 3 sections. Ideally, it should be read from top to bottom, however, almost all posts are standalone and can be read individually. </p>
+                        <br>
+                        
+                        <!--Beauty Topics-->
+                        <div class="col-md-12 col-xs-12">
+                            <div class="category">
+                                <div class="category-text madd">
+                                Beauty
+                                </div>
+                            </div>
                         </div>
+                        
+                        <div class="starthere-box">
+                            <div class="col-md-3 col-xs-3">
+                                <a href="<?php echo $base_url ?>recipe/all/"> 
+                                    <img class="starthere-image" src="http://localhost/organeek/img/beauty1.png" alt="Beauty">
+                                </a>
+                            </div>
+
+                            <div class="col-md-9 col-xs-9">
+                                <ul class="starthere-title">
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Beauty DIY 101 </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> 10 DIY mistakes to avoid </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Skin pH  </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Find out your skin type</a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients essentials </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients never to use on your beauty routine </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--//Beauty Topics//-->
+                        
+                        <!--Wellness Topics-->
+                        <div class="col-md-12 col-xs-12">
+                            <div class="category">
+                                <div class="category-text madd">
+                                Wellness
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="starthere-box">
+                            <div class="col-md-3 col-xs-3">
+                                <a href="<?php echo $base_url ?>recipe/all/"> 
+                                    <img class="starthere-image" src="http://localhost/organeek/img/wellness.png" alt="Beauty">
+                                </a>
+                            </div>
+
+                            <div class="col-md-9 col-xs-9">
+                                <ul class="starthere-title">
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Beauty DIY 101 </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> 10 DIY mistakes to avoid </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Skin pH  </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Find out your skin type</a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients essentials </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients never to use on your beauty routine </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--//Wellness Topics//-->
+                        
+                        <!--Natural Home Topics-->
+                        <div class="col-md-12 col-xs-12">
+                            <div class="category">
+                                <div class="category-text madd">
+                                Natural Home
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="starthere-box">
+                            <div class="col-md-3 col-xs-3">
+                                <a href="<?php echo $base_url ?>recipe/all/"> 
+                                    <img class="starthere-image" src="http://localhost/organeek/img/nav-menu/home-nav.png" alt="Beauty">
+                                </a>
+                            </div>
+
+                            <div class="col-md-9 col-xs-9">
+                                <ul class="starthere-title">
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Beauty DIY 101 </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> 10 DIY mistakes to avoid </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Skin pH  </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Find out your skin type</a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients essentials </a>
+                                    </li>
+                                    <li class="fa fa-angle-right">
+                                        <a href="#"> Top 10 beauty kitchen ingredients never to use on your beauty routine </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--//Natural Home Topics//-->
                     </div> <!--//Start Here//-->
                     
-                    <!-- Sidebar-->
+                <!-- Sidebar-->
                     <?php include 'sidebar.php'; ?>
-                    <!--//Sidebar//-->
-                    
-                </div>
+                <!--//Sidebar//-->
             </div>
         </div>
-        
-        <!-- Footer -->
-        <?php include 'footer.php'; ?>
-        <!--//Footer//-->
-        
-        <!-- Scroll to top -->
-        <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
+                <!-- Footer -->
+                <?php include 'footer.php'; ?>
+                <!--//Footer//-->
+
+                <!-- Scroll to top -->
+                <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
 
 
 
-        <!-- Javascript files -->
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-        <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-        <!-- FLEX SLIDER SCRIPTS  -->
-        <script defer src="js/jquery.flexslider-min.js"></script>
-        <!-- Pretty Photo JS -->
-        <script src="js/jquery.prettyPhoto.js"></script>
-        <!-- Respond JS for IE8 -->
-        <script src="js/respond.min.js"></script>
-        <!-- HTML5 Support for IE -->
-        <script src="js/html5shiv.js"></script>
-        <!-- Custom JS -->
-        <script src="js/custom.js"></script>
-        <!-- JS code for this page -->
-        <script>
-        /* ******************************************** */
-        /*  JS for SLIDER REVOLUTION  */
-        /* ******************************************** */
-                        jQuery(document).ready(function() {
-                                   jQuery('.tp-banner').revolution(
-                                        {
-                                                delay:9000,
-                                                startheight:500,
+                <!-- Javascript files -->
+                <!-- jQuery -->
+                <script src="js/jquery.js"></script>
+                <!-- Bootstrap JS -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+                <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+                <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+                <!-- FLEX SLIDER SCRIPTS  -->
+                <script defer src="js/jquery.flexslider-min.js"></script>
+                <!-- Pretty Photo JS -->
+                <script src="js/jquery.prettyPhoto.js"></script>
+                <!-- Respond JS for IE8 -->
+                <script src="js/respond.min.js"></script>
+                <!-- HTML5 Support for IE -->
+                <script src="js/html5shiv.js"></script>
+                <!-- Custom JS -->
+                <script src="js/custom.js"></script>
+                <!-- JS code for this page -->
+                <script>
+                /* ******************************************** */
+                /*  JS for SLIDER REVOLUTION  */
+                /* ******************************************** */
+                                jQuery(document).ready(function() {
+                                           jQuery('.tp-banner').revolution(
+                                                {
+                                                        delay:9000,
+                                                        startheight:500,
 
-                                                hideThumbs:10,
+                                                        hideThumbs:10,
 
-                                                navigationType:"bullet",	
+                                                        navigationType:"bullet",	
 
-                                                hideArrowsOnMobile:"on",
+                                                        hideArrowsOnMobile:"on",
 
-                                                touchenabled:"on",
-                                                onHoverStop:"on",
+                                                        touchenabled:"on",
+                                                        onHoverStop:"on",
 
-                                                navOffsetHorizontal:0,
-                                                navOffsetVertical:20,
+                                                        navOffsetHorizontal:0,
+                                                        navOffsetVertical:20,
 
-                                                stopAtSlide:-1,
-                                                stopAfterLoops:-1,
+                                                        stopAtSlide:-1,
+                                                        stopAfterLoops:-1,
 
-                                                shadow:0,
+                                                        shadow:0,
 
-                                                fullWidth:"on",
-                                                fullScreen:"off"
-                                        });
+                                                        fullWidth:"on",
+                                                        fullScreen:"off"
+                                                });
+                                });
+                /* ******************************************** */
+                /*  JS for FlexSlider  */
+                /* ******************************************** */
+
+                        $(window).load(function(){
+                                $('.flexslider-recent').flexslider({
+                                        animation:		"fade",
+                                        animationSpeed:	1000,
+                                        controlNav:		true,
+                                        directionNav:	false
+                                });
+                                $('.flexslider-testimonial').flexslider({
+                                        animation: 		"fade",
+                                        slideshowSpeed:	5000,
+                                        animationSpeed:	1000,
+                                        controlNav:		true,
+                                        directionNav:	false
+                                });
                         });
-        /* ******************************************** */
-        /*  JS for FlexSlider  */
-        /* ******************************************** */
 
-                $(window).load(function(){
-                        $('.flexslider-recent').flexslider({
-                                animation:		"fade",
-                                animationSpeed:	1000,
-                                controlNav:		true,
-                                directionNav:	false
-                        });
-                        $('.flexslider-testimonial').flexslider({
-                                animation: 		"fade",
-                                slideshowSpeed:	5000,
-                                animationSpeed:	1000,
-                                controlNav:		true,
-                                directionNav:	false
-                        });
+                /* Gallery */
+
+                jQuery(".gallery-img-link").prettyPhoto({
+                   overlay_gallery: false, social_tools: false
                 });
 
-        /* Gallery */
-
-        jQuery(".gallery-img-link").prettyPhoto({
-           overlay_gallery: false, social_tools: false
-        });
-
-        </script>
+                </script>
     </body>	
 </html>

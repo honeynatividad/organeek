@@ -964,7 +964,7 @@ $blog = new Blog();
                                                                                 <!--Recipe Photo-->
                                                                                 <div class="feature">
                                                                                     <div class="img-overlay1 img-responsive">
-                                                                                        <img src="img/wellness.png" alt="">
+                                                                                        <img src="<?php echo $a[$i]['photo']; ?>" alt="">
                                                                                     </div>
 
                                                                                     <div class="feature-content">
@@ -1499,8 +1499,10 @@ $blog = new Blog();
                                                     <a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
                                                     <a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
                                                     <div class="padd1"></div>
-                                                    <h4>Credit</h4>
-                                                    <p> Images used in the banner, menu, ingredients and recipe are courtesy of FreeDigitalPhotos.net and its creator.
+                                                    <h4>Contribute For Us</h4>
+                                                    <p> Share your recipes and experience just by simply registering in 2 simple steps! </p>
+                                                    <br>
+                                                    <button class="btn btn-danger" type="button">Register</button>
                                             </div> <!--/ Footer widget end -->
                                     </div>
                                     <div class="clearfix visible-sm"></div>
@@ -1522,6 +1524,9 @@ $blog = new Blog();
                                                             </div>
                                                             <button class="btn btn-danger" type="button">Subscribe</button>
                                                     </form>
+                                                    <br>
+                                                    <h4>Credit</h4>
+                                                    <p> Images used in the banner, menu, ingredients and recipe are courtesy of FreeDigitalPhotos.net and its creator.
                                             </div> <!--/ Footer widget end -->
                                     </div>
                                     <div class="col-md-3 col-sm-6">

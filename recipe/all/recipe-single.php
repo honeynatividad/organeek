@@ -110,289 +110,291 @@ $recipe->recipeData($id);
 		</div><!-- /.modal -->
 		<!-- Modal End -->
 		
-                        <!-- Top Banner -->
-                        <?php include '../../socialheader.php';?>
-                        <!-- //Top Banner //-->
+                    <!-- Top Banner -->
+                    <?php include '../../socialheader.php';?>
+                    <!-- //Top Banner //-->
 
-                       <!--Header Menu -->
-                        <div class="header">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-5">
-                                                        <!-- Link -->
-                                        <a href="index.php">
-                                                                <!-- Logo area -->
-                                            <div class="logo">
-                                                <img class="img-responsive" src="<?php echo $base_url ?>img/logo/ologo2.png" alt="Organeek"/>
-                                                <p>Celebrating Beauty & Wellness</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-9 col-sm-7">
-                                                        <!-- Navigation -->
-                                        <?php include '../../menu.php'; ?>
-                                    </div>
+                   <!--Header Menu -->
+                    <div class="header">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-5">
+                                                    <!-- Link -->
+                                    <a href="index.php">
+                                                            <!-- Logo area -->
+                                        <div class="logo">
+                                            <img class="img-responsive" src="<?php echo $base_url ?>img/logo/ologo2.png" alt="Organeek"/>
+                                            <p>Celebrating Beauty & Wellness</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>  
-                        <!--// Header// -->
-			
-			<!-- Banner -->
-                        <div class=" banner-bg">
-                            <div class="banner">
-                                    <div class="container">
-                                            <!-- Heading -->
-                                            <ol class="breadcrumb">
-                                                    <li><a href="<?php echo $base_url ?>index.php">Home</a></li>
-                                                    <li><a href="<?php echo $base_url ?>recipe/all/">Recipe</a></li>
-                                                    <li class="active">All</li>
-                                            </ol>
-                                            <div class="clearfix"></div>
-                                    </div>
+                                <div class="col-md-9 col-sm-7">
+                                                    <!-- Navigation -->
+                                    <?php include '../../menu.php'; ?>
+                                </div>
                             </div>
                         </div>
-                        <!--// Banner //-->
+                    </div>  
+                    <!--// Header// -->
 			
-                        <!-- Recipe -->
-                        <div class="body-wrapper padd">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-9 col-sm-12">
-                                       <!-- Recipe Post -->  
-                                            <div class="blog-span">
-                                                <div class="blog-post">
-                                                    <div class="blog-post-featured-img embossed img-overlay">
-                                                        <img src="../../../admin/<?php echo $recipe->photo ?>" alt="" class="img-responsive">
-                                                        <div class="item-img-overlay">
-                                                            <a class="portfolio-zoom fa fa-plus" href="../../../admin/<?php echo $recipe->photo ?>" data-rel="prettyPhoto[portfolio]" title="Title goes here"></a>                    
-                                                            <div class="item_img_overlay_content">
-                                                            
-                                                                <div class="blog-post-details-item2 blog-post-details-item-left share-article">
-                                                                    <span>Share It On</span>
-                                                                        <span class='st_sharethis' displayText='ShareThis'></span>
-                                                                        <span class='st_facebook' displayText='Facebook'></span>
-                                                                        <span class='st_twitter' displayText='Tweet'></span>
-                                                                        <span class='st_linkedin' displayText='LinkedIn'></span>
-                                                                        <span class='st_pinterest' displayText='Pinterest'></span>
-                                                                        <span class='st_email' displayText='Email'></span>
-                                                                </div>                 
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                   
-                                                <!-- Summary Line -->   
-                                                <div class="blog-post">
-                                                    <div class="blog-post-details">
-                                                    <!-- Date -->
-                                                    <div class="blog-post-details-item created fa fa-calendar">
-                                                        <?php echo $recipe->created ?>
-                                                    </div>
-
-                                                    <div class="blog-post-details-item blog-post-details-item-left fa fa-user">
-                                                        <a href="">
-                                                            Haze
-                                                        </a>
-                                                    </div>
-                                                    <!--// Author Name// -->
-
-                                                    <!-- Tags -->
-                                                    <div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags fa fa-file">
-                                                        <a href="#"><?php echo $recipe->category ?></a>,
-                                                        <a href="#"><?php echo $recipe->sub_category ?></a>,
-                                                        <a href="#"><?php echo $recipe->sub_category2 ?></a>
-                                                    </div>
-                                                    <!-- // Tags End // -->
-
-                                                    <!-- No Comments -->
-                                                    <div class="blog-post-details-item blog-post-details-item-left blog-post-details-item-last fa fa-comment">
-                                                        <a href="">
-                                                            3 Comments
-                                                        </a>
-                                                    </div>
-                                                    <!-- // No Comments // -->
-                                                </div> <!-- // Summary Line // -->
-                                            </div>
-                                        </div>
-                                    <!--//Recipe Post//-->
-                                    
-                                    <div class="recipe-single-title">
-                                            <h6><?php echo $recipe->title ?></h6>
-                                    </div>
-                                    <!--Recipe Body-->
-                                    <div class="blog-post-body">
-                                        <p><?php echo $recipe->benefits ?></p>
-                                    </div>
-                            
-                                    <!-- Recipe Index -->
-                                    <div class="inner-page">
-                                    <div class="component-box">
-                                        <div class="component">
-                                            <div class="row">
-                                                <div class="col-md-8 col-sm-7">
-                                                    <!-- Recipe Title -->
-                                                    <h6><?php echo $recipe->title ?></h6>
-                                                        <!-- Creator -->
-                                                        <div class="blog-post-details">
-                                                            <h5>Creator: Haze </h5>
-
-                                                            <!-- Recipe Description -->   
-                                                                <?php echo $recipe->overview ?>
-
-                                                                <!-- Ingredients -->   
-                                                                <h1>Ingredients</h1>
-
-                                                                    <?php echo $recipe->ingredients ?>
-                                                                     <!-- Steps -->   
-                                                                     <h1>Steps</h1>
-                                                                     <?php echo $recipe->instructions ?>
-                                                        </div>
-                                                </div>
-
-                                            <div class=" col-md-4 col-sm-5">
-                                                        <div class="blog-img pull-right1">
-                                                            <img class="recipe-index-image img-responsive" src="../../../admin/<?php echo $recipe->thumbnail ?>" alt="">
-                                                            <!--  Star Rating  -->
-                                                            <div class="star-rating"> 
-                                                                <span class="fa fa-star-o" data-rating="1"></span>
-                                                                <span class="fa fa-star-o" data-rating="2"></span>
-                                                                <span class="fa fa-star-o" data-rating="3"></span>
-                                                                <span class="fa fa-star-o" data-rating="4"></span>
-                                                                <span class="fa fa-star-o" data-rating="5"></span>
-                                                                <input type="hidden" name="whatever" class="rating-value" value="5">
-                                                            </div>
-                                                            <!--// Star Rating-->
-                                                            <div class="pin"> </div>    
-                                                                <div class="receipe-overview2">                                            
-                                                                    <div class="e">
-                                                                        <?php echo $recipe->recommended ?>
-                                                                    </div>
-                                                                </div> 
-                                                            <br>
-                                                            <!-- Recipe Share -->
-                                                            <div class="addthis_sharing_toolbox"></div>
-                                                            <!-- //Recipe Share //-->
-                                                        </div>
-                                                <br>
-                                                        <script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = 'http://organeek.net/recipe-single.php';var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();</script><a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> <!--//Inner Page//-->
-                                    <!--//Recipe Index//-->
-                            
-                                    
-                            <!-- Recipe Ranking -->
-                            <div class="row">
-                                <div class="col-md-4 col-xs-4"> 
-                                        <ul class=box1>
-                                            <li>
-                                                <div class="ranking">Made it</div>
-                                                    
-                                                    <div class="recipe-ranking">
-                                                        <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                        <span><a href="#"> 125 </a></span>
-                                                    </div>
-                                            </li>
-                                        </ul>
-                                </div> 
-                                <div class="col-md-4 col-xs-4"> 
-                                        <ul class=box1>
-                                            <li>
-                                                <div class="ranking">Like it</div>
-                                                
-                                                    <div class="recipe-ranking">
-                                                        <span><i class="fa fa-thumbs-o-up"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                        <span><a href="#"> 125 </a></span>
-                                                    </div>
-                                            </li>
-                                        </ul>
-                                </div> 
-                                <div class="col-md-4 col-xs-4"> 
-                                        <ul class=box1>
-                                            <li>
-                                                <div class="ranking">Rank it</div>
-                                                
-                                                    <div class="recipe-ranking">
-                                                        <span><i class="fa fa-star"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                        <span><a href="#"> 165 </a></span>
-                                                    </div>
-                                            </li>
-                                        </ul>
-                                </div> 
-                            </div>
-                            <!--//Recipe Ranking//-->
-                            
-                            <!-- About The Author -->
-                            <div class="commentbox">
-                                <div class="comment-text">Author</div>
-                            </div>
-                            
-                            <div class="component-content1">
-                                <div class="row">
-                                   <div class="col-sm-12 col-md-12">
-                                       <div class="the-author-thumbnail">
-                                           <img src="<?php echo $base_url ?>img/chef/dimple-fin.png" alt="Haze" class="img-responsive">
-                                       </div>  
-                                       <br>
-                                       <div class="the-author-small-bio">
-                                               <div class="the-author-name">
-                                                   <h1> Haze </h1>
-                                               <!-- Paragraph-->                                    
-                                               <p> Haze is the founder of Organeek. She loves animals, plants and everything that encompasses nature and though she lives in the city most of her life, she believes that everything that nature gives us is a gift that we must protect, nurture and celebrate. </p>
-                                                 <br>
-                                               <p> Subscribe to receive all the latest updates, recipes and articles by 2 simple steps!</p>
-                                               </div>
-                                               <br>
-                                               <form role="form">
-                                                       <div class="form-group">
-                                                               <input class="form-control" type="text" placeholder="Your name" />
-                                                       </div>
-                                                       <div class="form-group">
-                                                               <input class="form-control" type="email" placeholder="Your email" />
-                                                       </div>
-                                                       <button class="btn btn-danger" type="button">Subscribe</button>
-                                               </form>
-
-                                       </div>
-                                   </div>
-                                </div>
-                            </div>
-                            <!-- //About The Author// -->
-
-                            <!-- Comment Section -->
-                            <div class="commentbox">
-                                <div class="comment-text">
-                                Comment
-                                </div>
-                            </div>
-                            <br>
-                            <div class="blog-post">
-                                    <div class="comments">
-                                            <ul class="comment-list">
-                                                    <li class="comment">
-                                                            <a class="pull-left" href="#">
-                                                                <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
-                                                            </a>
-                                                            <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
-                                                            <div class="cmeta">Commented on 26/1/2014</div>
-                                                            <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
-                                                            <div class="clearfix"></div>
-                                                    </li>
-                                                    <li class="comment reply">
-                                                            <a class="pull-left" href="#">
-                                                                    <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
-                                                            </a>
-                                                            <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
-                                                            <div class="cmeta">Commented on 02/2/2014</div>
-                                                            <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
-                                                            <div class="clearfix"></div>
-                                                    </li>
-                                            </ul>
+                    <!-- Banner -->
+                    <div class=" banner-bg">
+                        <div class="banner">
+                                <div class="container">
+                                        <!-- Heading -->
+                                        <ol class="breadcrumb">
+                                                <li><a href="<?php echo $base_url ?>index.php">Home</a></li>
+                                                <li><a href="<?php echo $base_url ?>recipe/all/">Recipe</a></li>
+                                                <li class="active">All</li>
+                                        </ol>
                                         <div class="clearfix"></div>
-                                    </div><!--//Comment// -->
-                                </div><!--//Blog Post// -->
+                                </div>
+                        </div>
+                    </div>
+                    <!--// Banner //-->
+			
+                    <!-- Recipe -->
+                    <div class="body-wrapper padd">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                   <!-- Recipe Post -->  
+                                        <div class="blog-span">
+                                            <div class="blog-post">
+                                                <div class="blog-post-featured-img embossed img-overlay">
+                                                    <img src="../../admin/<?php echo $recipe->photo ?>" alt="" class="img-responsive">
+                                                    <div class="item-img-overlay">
+                                                        <a class="portfolio-zoom fa fa-plus" href="../../admin/<?php echo $recipe->photo ?>" data-rel="prettyPhoto[portfolio]" title="Title goes here"></a>                    
+                                                        <div class="item_img_overlay_content">
 
+                                                            <div class="blog-post-details-item2 blog-post-details-item-left share-article">
+                                                                <span>Share It On</span>
+                                                                    <span class='st_sharethis' displayText='ShareThis'></span>
+                                                                    <span class='st_facebook' displayText='Facebook'></span>
+                                                                    <span class='st_twitter' displayText='Tweet'></span>
+                                                                    <span class='st_linkedin' displayText='LinkedIn'></span>
+                                                                    <span class='st_pinterest' displayText='Pinterest'></span>
+                                                                    <span class='st_email' displayText='Email'></span>
+                                                            </div>                 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Summary Line -->   
+                                            <div class="blog-post">
+                                                <div class="blog-post-details">
+                                                <!-- Date -->
+                                                <div class="blog-post-details-item created fa fa-calendar">
+                                                    <?php echo $recipe->created ?>
+                                                </div>
+
+                                                <div class="blog-post-details-item blog-post-details-item-left fa fa-user">
+                                                    <a href="">
+                                                        Haze
+                                                    </a>
+                                                </div>
+                                                <!--// Author Name// -->
+
+                                                <!-- Tags -->
+                                                <div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags fa fa-file">
+                                                    <a href="#"><?php echo $recipe->category ?></a>,
+                                                    <a href="#"><?php echo $recipe->sub_category ?></a>,
+                                                    <a href="#"><?php echo $recipe->sub_category2 ?></a>
+                                                </div>
+                                                <!-- // Tags End // -->
+
+                                                <!-- No Comments -->
+                                                <div class="blog-post-details-item blog-post-details-item-left blog-post-details-item-last fa fa-comment">
+                                                    <a href="">
+                                                        3 Comments
+                                                    </a>
+                                                </div>
+                                                <!-- // No Comments // -->
+                                            </div> <!-- // Summary Line // -->
+                                        </div>
+                                    </div>
+                                <!--//Recipe Post//-->
+
+                                <div class="recipe-single-title">
+                                        <h6><?php echo $recipe->title ?></h6>
+                                </div>
+                                <!--Recipe Body-->
+                                <div class="blog-post-body">
+                                    <p><?php echo $recipe->benefits ?></p>
+                                </div>
+
+                                <!-- Recipe Index -->
+                                <div class="inner-page">
+                                <div class="component-box">
+                                    <div class="component">
+                                        <div class="row">
+                                            <div class="col-md-8 col-sm-7">
+                                                <!-- Recipe Title -->
+                                                <h6><?php echo $recipe->title ?></h6>
+                                                    <!-- Creator -->
+                                                    <div class="blog-post-details">
+                                                        <h5> <a href="#">by: Haze </a> </h5>
+
+                                                        <!-- Recipe Description -->   
+                                                            <?php echo $recipe->overview ?>
+
+                                                            <!-- Ingredients -->   
+                                                            <h1>Ingredients</h1>
+
+                                                                <?php echo $recipe->ingredients ?>
+                                                                 <!-- Steps -->   
+                                                                 <h1>Steps</h1>
+                                                                 <?php echo $recipe->instructions ?>
+                                                    </div>
+                                            </div>
+
+                                        <div class=" col-md-4 col-sm-5">
+                                                    <div class="blog-img">
+                                                        <img class="recipe-index-image img-responsive" src="../../admin/<?php echo $recipe->thumbnail ?>" alt="">
+
+                                                        <!-- Recipe Share -->
+                                                        <br>
+                                                        <div class="addthis_sharing_toolbox"></div>
+                                                        <!-- //Recipe Share //-->
+
+                                                        <div class="pin"> </div>    
+                                                            <div class="receipe-overview2">                                            
+                                                                <div class="e">
+                                                                    <?php echo $recipe->recommended ?>
+                                                                </div>
+                                                            </div> 
+                                                    </div>
+
+                                                    <!--  Star Rating  -->
+                                                        <div class="star-rating"> 
+                                                            <span class="fa fa-star-o" data-rating="1"></span>
+                                                            <span class="fa fa-star-o" data-rating="2"></span>
+                                                            <span class="fa fa-star-o" data-rating="3"></span>
+                                                            <span class="fa fa-star-o" data-rating="4"></span>
+                                                            <span class="fa fa-star-o" data-rating="5"></span>
+                                                            <input type="hidden" name="whatever" class="rating-value" value="5">
+                                                        </div>
+
+                                                <div class="print">
+                                                    <script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = 'http://organeek.net/recipe-single.php';var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();</script><a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!--//Component Box//-->
+                                <!--//Recipe Index//-->
+
+                        <!-- Recipe Ranking -->
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4"> 
+                                    <ul class=box1>
+                                        <li>
+                                            <div class="ranking">Made it</div>
+
+                                                <div class="recipe-ranking">
+                                                    <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                    <span><a href="#"> 125 </a></span>
+                                                </div>
+                                        </li>
+                                    </ul>
+                            </div> 
+                            <div class="col-md-4 col-xs-4"> 
+                                    <ul class=box1>
+                                        <li>
+                                            <div class="ranking">Like it</div>
+
+                                                <div class="recipe-ranking">
+                                                    <span><i class="fa fa-thumbs-o-up"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                    <span><a href="#"> 125 </a></span>
+                                                </div>
+                                        </li>
+                                    </ul>
+                            </div> 
+                            <div class="col-md-4 col-xs-4"> 
+                                    <ul class=box1>
+                                        <li>
+                                            <div class="ranking">Rank it</div>
+
+                                                <div class="recipe-ranking">
+                                                    <span><i class="fa fa-star"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                    <span><a href="#"> 165 </a></span>
+                                                </div>
+                                        </li>
+                                    </ul>
+                            </div> 
+                        </div>
+                        <!--//Recipe Ranking//-->
+
+                        <!-- About The Author -->
+                        <div class="commentbox">
+                            <div class="comment-text">Author</div>
+                        </div>
+
+                        <div class="component-content1">
+                            <div class="row">
+                               <div class="col-sm-12 col-md-12">
+                                   <div class="the-author-thumbnail">
+                                       <img src="<?php echo $base_url ?>img/chef/dimple-fin.png" alt="Haze" class="img-responsive">
+                                   </div>  
+                                   <br>
+                                   <div class="the-author-small-bio">
+                                           <div class="the-author-name">
+                                               <h1> Haze </h1>
+                                           <!-- Paragraph-->                                    
+                                           <p> Haze is the founder of Organeek. She loves animals, plants and everything that encompasses nature and though she lives in the city most of her life, she believes that everything that nature gives us is a gift that we must protect, nurture and celebrate. </p>
+                                             <br>
+                                           <p> Subscribe to receive all the latest updates, recipes and articles by 2 simple steps!</p>
+                                           </div>
+                                           <br>
+                                           <form role="form">
+                                                   <div class="form-group">
+                                                           <input class="form-control" type="text" placeholder="Your name" />
+                                                   </div>
+                                                   <div class="form-group">
+                                                           <input class="form-control" type="email" placeholder="Your email" />
+                                                   </div>
+                                                   <button class="btn btn-danger" type="button">Subscribe</button>
+                                           </form>
+
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- //About The Author// -->
+
+                        <!-- Comment Section -->
+                        <div class="commentbox">
+                            <div class="comment-text">
+                            Comment
+                            </div>
+                        </div>
+                        <br>
+                        <div class="blog-post">
+                                <div class="comments">
+                                        <ul class="comment-list">
+                                                <li class="comment">
+                                                        <a class="pull-left" href="#">
+                                                            <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
+                                                        </a>
+                                                        <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
+                                                        <div class="cmeta">Commented on 26/1/2014</div>
+                                                        <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
+                                                        <div class="clearfix"></div>
+                                                </li>
+                                                <li class="comment reply">
+                                                        <a class="pull-left" href="#">
+                                                                <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
+                                                        </a>
+                                                        <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
+                                                        <div class="cmeta">Commented on 02/2/2014</div>
+                                                        <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
+                                                        <div class="clearfix"></div>
+                                                </li>
+                                        </ul>
+                                    <div class="clearfix"></div>
+                                </div><!--//Comment// -->
+                            </div><!--//Blog Post// -->
 
                             <!-- Comment Posting -->
                             <div class="respond">
@@ -446,20 +448,17 @@ $recipe->recipeData($id);
                                             </div>
                                             <div class="clearfix"></div>
                                     </div>
-                                <div class="clearfix padd1"></div>
-                                <!-- //Next/Previous Navigation//-->
-                           </div> <!--//Inner Page//-->
-                        </div><!--//End//-->
-                        
+                                    <div class="clearfix padd1"></div>
+                                    <!-- //Next/Previous Navigation//-->
+                                </div> <!--//Inner Page//-->
+                            </div><!--//End//-->
                                 
-                                <!-- Sidebar-->
-                                <?php include '../../sidebar.php'; ?>
-                                <!--//Sidebar//-->
-                                </div>
+                            <!-- Sidebar-->
+                            <?php include '../../sidebar.php'; ?>
+                            <!--//Sidebar//-->
                             </div>
                         </div>
-                </div> 
-                
+                    </div>
                 
                 <!-- Footer -->
                 <?php include '../../footer.php'; ?>
