@@ -229,7 +229,7 @@ $recipe = new Recipe();
                         </div> <!--//body wrapper//-->
                     </div> <!--//Inner Page// -->
 
-                   <!-- Footer -->
+                    <!-- Footer -->
                     <?php include '../../footer.php'; ?>
                     <!--//Footer//-->
 

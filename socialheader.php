@@ -14,8 +14,8 @@
                 <!-- Header top About -->
                 <div class="header-contact">
                     <!-- Contact number -->
-                    <span><a href="<?php echo $base_url.'contact.html' ?>"> Contact Us |</a></span> 
-                    <span><a href="<?php echo $base_url.'aboutus.html' ?>"> About Us</a></span>
+                    <span><a href="<?php echo $base_url.'contact.php' ?>"> Contact Us |</a></span> 
+                    <span><a href="<?php echo $base_url.'aboutus.php' ?>"> About Us</a></span>
                 </div>
             </div>
         <!-- Start Here-->

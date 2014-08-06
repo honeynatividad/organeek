@@ -281,7 +281,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                     </div>
                                     <!-- // Blog Ranking// -->
                         
-                        <!-- About The Author -->
+                    <!-- About The Author -->
                         <div class="commentbox">
                             <div class="comment-text">Author</div>
                         </div>

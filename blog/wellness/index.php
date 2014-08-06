@@ -137,8 +137,8 @@ $recipe = new Blog();
                                     <!-- Heading -->
                                     <ol class="breadcrumb">
                                             <li><a href="<?php echo $base_url ?>index.php">Home</a></li>
-                                            <li><a href="<?php echo $base_url ?>blog/beauty">Blog</a></li>
-                                            <li class="active">Beauty</li>
+                                            <li><a href="<?php echo $base_url ?>blog/naturalhome">Blog</a></li>
+                                            <li class="active">Natural Home</li>
                                     </ol>
                                     <div class="clearfix"></div>
                             </div>

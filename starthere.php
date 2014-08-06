@@ -129,7 +129,8 @@ include_once 'config.php';
         </div>  
         <!-- //Header Menu//-->
 	
-         <!-- Start Here-->
+        <!-- Start Here-->
+        <div class="border-ridge"> </div> 
         <div class="container">
             <div class="row">
                 <div class="col-md-9">

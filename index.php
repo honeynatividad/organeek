@@ -57,7 +57,7 @@ $blog = new Blog();
         }(document, 'script', 'facebook-jssdk'));
         </script>	
 			
-		<!-- Shopping cart Modal -->
+	<!-- Shopping cart Modal -->
         <div class="modal fade" id="shoppingcart1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -948,7 +948,7 @@ $blog = new Blog();
                                                     </div>
                                                 </div>
                                                 -->
-                                                    <div class="well padd1">
+                                                    <div class="well-blog padd1">
                                                         <div id="recentBlog" class="carousel slide">
                                                             <!-- Carousel items -->
                                                             <div class="carousel-inner">
@@ -1339,7 +1339,7 @@ $blog = new Blog();
                                         <!-- //Testimonial// -->
                                 
                                 <!-- Blogger -->
-                               <div class="chefs padd5">
+                                <div class="chefs padd5">
                                     <div class="container">
                                              <div class="col-md-12">
 						<!-- Default Heading -->
@@ -1436,7 +1436,6 @@ $blog = new Blog();
 						</div>
 					</div>
 				</div>
-                                <!-- // Blogger & Contributor // -->
                     </div><!-- //Blogger//-->
                     
                 	

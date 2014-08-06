@@ -49,7 +49,7 @@
                 </li>
                 
                 <li class="dropdown">
-                    <a href="blog.php" class="dropdown-toggle" data-toggle="dropdown"><img src="<?php echo $base_url ?>img/beauty1.png" class="img-responsive" alt="Blog" /> Blog <b class="caret"></b></a>
+                    <a href="<?php echo $base_url ?>blog/all" class="dropdown-toggle" data-toggle="dropdown"><img src="<?php echo $base_url ?>img/beauty1.png" class="img-responsive" alt="Blog" /> Blog <b class="caret"></b></a>
                     <ul class="dropdown-menu dropdown-md">
                         <li>
                             <div class="row">
@@ -59,11 +59,11 @@
                                                                                                                         <!-- Heading -->
                                         <h3>Beauty</h3>
                                                                                                                         <!-- Image -->
-                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyrecipe.jpg" class="img-responsive" alt="" />
+                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyrecipe.jpg" class="img-responsive" alt="Beauty Blog" />
                                                                                                                         <!-- Paragraph -->
                                         <p>Easy-to-follow beauty recipes without the nasty chemicals</p>
                                                                                                                         <!-- Button -->
-                                        <a href="<?php echo $base_url.'beauty/recipe/' ?>" class="btn btn-danger btn-xs">View Menu</a>
+                                        <a href="<?php echo $base_url.'blog/beauty' ?>" class="btn btn-danger btn-xs">View Menu</a>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
@@ -72,11 +72,11 @@
                                                                                                                         <!-- Heading -->
                                         <h3>Wellness</h3>
                                                                                                                         <!-- Image -->
-                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyblog.jpg" class="img-responsive" alt="" />
+                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyblog.jpg" class="img-responsive" alt="Wellness Blog" />
                                                                                                                         <!-- Paragraph -->
                                         <p>All you need to know about beauty-related topics</p>
                                                                                                                         <!-- Button -->
-                                        <a href="<?php echo $base_url.'beauty/blog/' ?>" class="btn btn-danger btn-xs">View Menu</a>
+                                        <a href="<?php echo $base_url.'blog/wellness' ?>" class="btn btn-danger btn-xs">View Menu</a>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
@@ -85,11 +85,11 @@
                                                                                                                         <!-- Heading -->
                                         <h3>Natural Home</h3>
                                                                                                                         <!-- Image -->
-                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyregimen.jpg" class="img-responsive" alt="" />
+                                        <img src="<?php echo $base_url ?>img/nav-menu/beautyregimen.jpg" class="img-responsive" alt="Natural Home" />
                                                                                                                         <!-- Paragraph -->
                                         <p>Sure guide to achieve and maintain beauty</p>
                                                                                                                         <!-- Button -->
-                                        <a href="<?php echo $base_url.'beauty/regimen/' ?>" class="btn btn-danger btn-xs">View Menu</a>
+                                        <a href="<?php echo $base_url.'blog/naturalhome' ?>" class="btn btn-danger btn-xs">View Menu</a>
                                     </div>
                                 </div>
                             </div>

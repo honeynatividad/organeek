@@ -108,8 +108,7 @@ table { background: #fff; }
 }
 
 .border-ridge {
-    border-top: 2px ridge #f1f1f1;
-    border-bottom: 2px ridge #f1f1f1;
+    border-top: 2px ridge #ccee81;
 }
 .padd{
 	padding: 35px 0;
@@ -300,6 +299,7 @@ table { background: #fff; }
 
 .header{
    padding-top: 30px;
+   
 }
 
 //Main Category//
@@ -822,24 +822,23 @@ table { background: #fff; }
 
 
 .header .navbar-default .navbar-nav>li>a img{
-	max-width: 60px;
+	width: 60px;
 	margin: 15px auto;
 	box-shadow: 0px 1px 1px #4d4d4d;
 	border-radius: 80px;
         border: 5px solid #8ac317;
-        background: #ffffff;
         height: 60px;
 }
 
 .header .navbar-default .navbar-nav>li>a img:hover{
-	max-width: 60px;
+	width: 60px;
 	margin: 15px auto;
 	box-shadow: 0px 1px 1px #4d4d4d;
 	border-radius: 80px;
         border: 5px solid #508706;
-        background: #8ac317;
         height: 60px;
 }
+
 .header .dropdown .dropdown-menu{
 	margin-top: -8px !important;
 	margin-left: 0px;
@@ -1508,9 +1507,8 @@ ul.box1 {
         overflow: hidden;
         list-style: none;
         padding: 0;
-        display: inline; }
-
-
+        display: inline; 
+}
 
 ul.box1 li {
         position: relative;
@@ -2644,8 +2642,6 @@ div.ppt { display:none !important; }
  * General page CSS 
  */
 
-.inner-page .general { margin-top: 40px; }
-
 .inner-page .general .nav-tabs{ border-bottom: 1px solid #eee; }
 .nav-tabs{border-bottom:2px solid #8ace19;}
 .nav-tabs>li{float:left;margin-bottom:-1px;}
@@ -3167,9 +3163,9 @@ ul.simple-post-list {
     border-left: 6px solid #538300;
     border-radius: 6px;
     border: 1px solid #ccc;
-    outline: 1px dashed #dedede;
+    outline: 1px dashed #FFFFFF;
     outline-offset: -10px;
-        
+    background: #ccee81;
 }
 
 .inner-page .component-content h3{
@@ -3455,6 +3451,10 @@ margin: 0 auto;
         text-align:center;
 }
 
+.well-blog {
+    border-top: 1px dashed #8ac317;
+    border-bottom: 1px dashed #8ac317;
+}
 /*
  * Responsive CSS
  * ---------------
@@ -3544,7 +3544,6 @@ margin: 0 auto;
 	.header .logo { 
 		max-width: 260px;
 		margin: 0 auto;
-		position: auto;
         }
         
         .banner-top {
@@ -3559,6 +3558,9 @@ margin: 0 auto;
         text-align:center;
         }
         
+        .well-blog {
+        border: 1px dashed #8ac317;
+    }
         .starthere {
         margin: 5px auto !important;
         }
@@ -3648,8 +3650,8 @@ margin: 0 auto;
 		font-size: 16px;
 		text-align: left;
 	}
-       
-	.header .navbar-default .navbar-nav>li>a img { display: none; }
+        
+        .header .navbar-default .navbar-nav>li>a img { display: none; }
 	.header .navbar-collapse { border-top: 1px solid #f1f1f1; }
 	.header .navbar-default .navbar-nav .open .dropdown-menu>li>a {
 		margin-left: 20px;
@@ -3787,7 +3789,8 @@ margin: 0 auto;
  * Desktop
  */
 @media (max-width: 991px){
-	.header .navbar-default .navbar-nav > li ul.dropdown-md { width: 450px;	}
+        .navbar { width: 600px; padding-left: 90px;}
+        .header .navbar-default .navbar-nav > li ul.dropdown-md { width: 450px;	}
 	.testimonial h3 { text-align: center; }
 	.testimonial .flexslider-testimonial,
 	.testimonial .flexslider-recent {
@@ -4109,17 +4112,7 @@ Blog Single
 }
 .title-block .title-seperator { background: url("../img/border2.png"); height: 5px; overflow: hidden; margin-top: 8px; overflow: hidden;
 } .h3-sidebar-title { color: #4b4b4b; font-size: 15px; font-weight: 500; text-transform: uppercase;
-} .h4-body-title { font-size: 18px; color: #4b4b4b; font-weight: normal;
-} .space-sep20 { clear: both; display: block; height: 20px;
-} .space-sep30 { clear: both; display: block; height: 30px;
-} .space-sep40 { clear: both; display: block; height: 40px;
-} .space-sep50 { clear: both; display: block; height: 50px;
-} .space-sep60 { clear: both; display: block; height: 60px;
-} .space-sep70 { clear: both; display: block; height: 70px;
-} .space-sep80 { clear: both; display: block; height: 80px;
-} .space-sep90 { clear: both; display: block; height: 90px;
-} .space-sep100 { clear: both; display: block; height: 100px;
-}   
+} .h4-body-title { font-size: 18px; color: #4b4b4b; font-weight: normal;}
 
 .related-post {
     font-size: 12px;
@@ -4135,13 +4128,11 @@ Blog Single
 }
 
 .recipe-box-index { 
-    margin: 5px;
     padding: 10px;
     background: #ffffff;
     border-radius: 6px;
-    border-top: 1px solid #ccc;
-    box-shadow:0px 1px 1px #4d4d4d;
-    width: auto;
+    border: 1px solid #ccc;
+    margin: 10px auto;
  }   
 .starthere {
     padding: 2px;
@@ -4406,6 +4397,8 @@ img.size {
     text-overflow: ellipsis;
     max-width: 400px;
     display: block;
+    text-align:center;
+    margin: 0 auto;
 }
 
 .read-more a{
