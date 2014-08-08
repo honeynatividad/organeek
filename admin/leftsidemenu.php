@@ -1,4 +1,4 @@
-<?php if($_SESSION['role']=='admin'){ ?>
+
 <ul class="sidebar-menu">
     <li class="active">
         <a href="<?php echo $base_url ?>admin/index.php">
@@ -63,31 +63,3 @@
     </li>
                         
 </ul>
-<?php }elseif($_SESSION['role']=='Contributor'){ ?>
-<ul class="sidebar-menu">
-    
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Blog</span>
-            <i class="fa fa-angle-left pull-right"></i>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="<?php echo $base_url ?>admin/blogs/add.php"><i class="fa fa-angle-double-right"></i> Add Blog</a></li>
-            <li><a href="<?php echo $base_url ?>admin/blogs/index.php"><i class="fa fa-angle-double-right"></i> List of Blogs</a></li>                                
-        </ul>
-    </li>
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Recipe</span>
-            <i class="fa fa-angle-left pull-right"></i>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="<?php echo $base_url ?>admin/recipes/add.php"><i class="fa fa-angle-double-right"></i> Add Recipe</a></li>
-            <li><a href="<?php echo $base_url ?>admin/recipes/index.php"><i class="fa fa-angle-double-right"></i> List of Recipe</a></li>                                
-        </ul>
-    </li>
-                        
-</ul>
-<?php } ?>
