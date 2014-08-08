@@ -47,7 +47,7 @@ a:hover {
   color: #f75353 !important;
 }
 .green {
-  color: #8ace19 !important;
+  color: #8ac317 !important;
 }
 .lblue {
   color: #32c8de !important;
@@ -86,7 +86,7 @@ a:hover {
   background-color: #f75353 !important;
 }
 .br-green {
-  background-color: #8ACE19 !important;
+  background-color: #8ac317 !important;
 }
 .br-lblue {
   background-color: #32c8de !important;
@@ -129,7 +129,7 @@ a:hover {
   background: #333333;
 }
 .btn.btn-danger {
-  background: #8ace19;
+  background: #8ac317;
   border: 1px solid #7bb90c;
   margin-right: 20px;
 }
@@ -215,7 +215,7 @@ a:hover {
   background: #f75353;
 }
 .label.label-success {
-  background: #8ace19;
+  background: #8ac317;
 }
 .label.label-info {
   background: #32c8de;
@@ -282,16 +282,16 @@ a:hover {
   color: #777777;
 }
 .pagination li a:hover {
-  background-color: #8ace19;
+  background-color: #8ac317;
   border-color: #fbf9fa;
   color: #ffffff;
 }
 .pagination li.active a {
-  background-color: #8ace19;
+  background-color: #8ac317;
   border-color: #fbf9fa;
 }
 .pagination li.active a:hover {
-  background-color: #8ace19;
+  background-color: #8ac317;
   border-color: #fbf9fa;
 }
 .pagination li.active a:focus {
@@ -330,7 +330,7 @@ a:hover {
   border-color: #f75353;
 }
 .nav-tabs li.active a {
-  background-color: #8ace19;
+  background-color: #8ac317;
   border-color: #eee;
   color: #ffffff;
 }
@@ -456,17 +456,17 @@ a:hover {
 }
 .btn-cart-md .cart-dropdown,
 .btn-cart-sm .cart-dropdown {
-  border-top: 3px solid #8ace19 !important;
+  border-top: 3px solid #8ac317 !important;
 }
 .btn-cart-sm .cart-dropdown:before,
 .btn-cart-md .cart-dropdown:before {
-  border-bottom-color: #8ace19 !important;
+  border-bottom-color: #8ac317 !important;
 }
 /****************/
 /* flex-slider  */
 /****************/
 .testimonial .flex-control-paging li a.flex-active {
-  background: #8ace19;
+  background: #8ac317;
 }
 /****************/
 /* Recipe Page */
@@ -484,10 +484,10 @@ a:hover {
 /* Shopping Item */
 /****************/
 .inner-page .shopping .shopping-item span.item-price {
-  color: ##8ace19;
+  color: ##8ac317;
 }
 .inner-page .shopping .shopping-item:hover {
-  border-color: #8ace19;
+  border-color: #8ac317;
 }
 /****************/
 /* Blog Page */
@@ -515,5 +515,5 @@ a:hover {
 /* Scroll to top */
 /****************/
 .totop a i {
-  background: #8ace19;
+  background: #8ac317;
 }

@@ -137,8 +137,8 @@ $recipe = new Blog();
                                     <!-- Heading -->
                                     <ol class="breadcrumb">
                                             <li><a href="<?php echo $base_url ?>index.php">Home</a></li>
-                                            <li><a href="<?php echo $base_url ?>blog/naturalhome">Blog</a></li>
-                                            <li class="active">Natural Home</li>
+                                            <li><a href="<?php echo $base_url ?>blog/all">Blog</a></li>
+                                            <li class="active">Wellness</li>
                                     </ol>
                                     <div class="clearfix"></div>
                             </div>
@@ -157,7 +157,7 @@ $recipe = new Blog();
                                     <div class="blog-post">
                                             <!-- Entry is the one post for each user -->
                                             <?php foreach($recipe->blogList() as $a): ?>
-                                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                            <div class="col-md-5 col-xs-12">
                                                     <!-- Post Images -->
                                                     <div class="padd1"> </div>
                                                     <div class="blog-img3 clearfix"> 
@@ -165,7 +165,7 @@ $recipe = new Blog();
                                                     </div>
                                                     <br>
                                             </div>        
-                                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                            <div class="col-md-7 col-xs-12">
                                                     <!-- Heading of the  post -->
                                                     <div class="blog-image">
                                                         <h3> <a href="blog-single.php?id=<?php echo $a['blog_id']; ?>"><?php echo $a['title'] ?></a></h3>
@@ -180,7 +180,7 @@ $recipe = new Blog();
                                                     </div>
                                                     <div class="clearfix"></div>
                                             </div>
-                                            <!-- Summary Line Starts -->
+                                            <!-- Summary Line -->
                                             <div class="col-md-12 col-sm-12 col-xs-12">
                                                 <div class="blog-post-details">
                                                 <!-- Views -->

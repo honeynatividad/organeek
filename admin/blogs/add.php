@@ -540,13 +540,18 @@ function createThumbs( $pathToImages, $pathToThumbs, $thumbWidth )
                                             <label>Sub Category</label>
                                             <select class="form-control" name="sub_category">
                                                 <option value="--">--</option>
-                                                <option value="Face_Care">Face Care</option>
-                                                <option value="Body_And_Skin_Care">Body and Skin Care</option>
+                                                <option value="Body_Skin_Care">Body & Skin Care</option>
                                                 <option value="Eye_Care">Eye Care</option>
+                                                <option value="Face_Care">Face Care</option>
+                                                <option value="Hair">Hair</option>
+                                                <option value="Hands_Feet">Hands & Feet</option>
                                                 <option value="Oral_Care">Oral Care</option>
-                                                <option value="Wellness">Wellness</option>
-                                                <option value="Hair_Care">Hair Care</option>
                                                 <option value="Personal_Hygiene">Personal Hygiene</option>
+                                                <option value="Health">Health</option>
+                                                <option value="Exercise">Exercise</option>
+                                                <option value="Gardening">Gardening</option>
+                                                <option value="Household_Products">Household Products</option>
+                                                <option value="Kitchen">Kitchen</option>
                                             </select>
                                         </div>
                                         

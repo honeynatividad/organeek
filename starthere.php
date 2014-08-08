@@ -164,7 +164,7 @@ include_once 'config.php';
                             <div class="col-md-9 col-xs-9">
                                 <ul class="starthere-title">
                                     <li class="fa fa-angle-right">
-                                        <a href="#"> Beauty DIY 101 </a>
+                                        <a href="http://localhost/organeek/blog/wellness/blog-single.php?id=12#sthash.RWWCfL2q.dpbs"> Beauty DIY 101 </a>
                                     </li>
                                     <li class="fa fa-angle-right">
                                         <a href="#"> 10 DIY mistakes to avoid </a>
@@ -267,7 +267,7 @@ include_once 'config.php';
                             </div>
                         </div>
                         <!--//Natural Home Topics//-->
-                    </div> <!--//Start Here//-->
+                    </div>  <!--//Start Here//-->     
                     
                 <!-- Sidebar-->
                     <?php include 'sidebar.php'; ?>

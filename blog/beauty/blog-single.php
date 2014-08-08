@@ -242,42 +242,45 @@ fjs.parentNode.insertBefore(js, fjs);
                                     
                                     <!-- Blog Ranking -->
                                     <div class="row">
-                                        <div class="col-md-4 col-xs-4"> 
-                                                <ul class=box1>
-                                                    <li>
-                                                        <div class="ranking">Made it</div>
+                                        
+                                            <div class="col-md-4 col-xs-4"> 
 
-                                                            <div class="recipe-ranking">
-                                                                <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                                <span><a href="#"> 125 </a></span>
-                                                            </div>
-                                                    </li>
-                                                </ul>
-                                        </div> 
-                                        <div class="col-md-4 col-xs-4"> 
-                                                <ul class=box1>
-                                                    <li>
-                                                        <div class="ranking">Like it</div>
+                                                    <ul class=box1>
+                                                        <li>
+                                                            <div class="ranking">Read it</div>
 
-                                                            <div class="recipe-ranking">
-                                                                <span><i class="fa fa-thumbs-o-up"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                                <span><a href="#"> 125 </a></span>
-                                                            </div>
-                                                    </li>
-                                                </ul>
-                                        </div> 
-                                        <div class="col-md-4 col-xs-4"> 
-                                                <ul class=box1>
-                                                    <li>
-                                                        <div class="ranking">Rank it</div>
+                                                                <div class="recipe-ranking">
+                                                                    <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                    <span><a href="#"> 125 </a></span>
+                                                                </div>
+                                                        </li>
+                                                    </ul>
+                                            </div> 
+                                            <div class="col-md-4 col-xs-4"> 
+                                                    <ul class=box1>
+                                                        <li>
+                                                            <div class="ranking">Like it</div>
 
-                                                            <div class="recipe-ranking">
-                                                                <span><i class="fa fa-star"  href="#">&nbsp; &nbsp;| </i></span> 
-                                                                <span><a href="#"> 165 </a></span>
-                                                            </div>
-                                                    </li>
-                                                </ul>
-                                        </div> 
+                                                                <div class="recipe-ranking">
+                                                                    <span><i class="fa fa-thumbs-o-up"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                    <span><a href="#"> 125 </a></span>
+                                                                </div>
+                                                        </li>
+                                                    </ul>
+                                            </div> 
+                                            <div class="col-md-4 col-xs-4"> 
+                                                    <ul class=box1>
+                                                        <li>
+                                                            <div class="ranking">Rank it</div>
+
+                                                                <div class="recipe-ranking">
+                                                                    <span><i class="fa fa-star"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                    <span><a href="#"> 165 </a></span>
+                                                                </div>
+                                                        </li>
+                                                    </ul>
+                                            </div> 
+                                        
                                     </div>
                                     <!-- // Blog Ranking// -->
                         

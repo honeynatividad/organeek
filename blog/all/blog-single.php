@@ -148,7 +148,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                             <!-- Heading -->
                                             <ol class="breadcrumb">
                                                     <li><a href="<?php echo $base_url ?>index.php">Home</a></li>
-                                                    <li><a href="blog.php">Blog</a></li>
+                                                    <li><a href="<?php echo $base_url ?>blog/all">Blog</a></li>
                                                     <li><a href="#"><?php echo $recipe->category ?></a></li>
                                                     <li class="active"> <?php echo $recipe->sub_category ?> </li>
                                             </ol>
@@ -204,7 +204,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                                             Haze
                                                         </a>
                                                     </div>
-                                                    <!-- Author Name End -->
+                                                    <!-- //Author Name// -->
 
                                                     <!-- Tags -->
                                                     <div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags fa fa-file">
@@ -239,173 +239,201 @@ fjs.parentNode.insertBefore(js, fjs);
                                         ?>
                                     </div>
                                     <br>
+                                    
+                                    <!-- Blog Ranking -->
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-4"> 
+                                                <ul class=box1>
+                                                    <li>
+                                                        <div class="ranking">Read it</div>
 
-                    <!-- About The Author -->
-                    <div class="commentbox">
-                        <div class="comment-text">
-                        Author
+                                                            <div class="recipe-ranking">
+                                                                <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                <span><a href="#"> 125 </a></span>
+                                                            </div>
+                                                    </li>
+                                                </ul>
+                                        </div> 
+                                        <div class="col-md-4 col-xs-4"> 
+                                                <ul class=box1>
+                                                    <li>
+                                                        <div class="ranking">Like it</div>
+
+                                                            <div class="recipe-ranking">
+                                                                <span><i class="fa fa-thumbs-o-up"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                <span><a href="#"> 125 </a></span>
+                                                            </div>
+                                                    </li>
+                                                </ul>
+                                        </div> 
+                                        <div class="col-md-4 col-xs-4"> 
+                                                <ul class=box1>
+                                                    <li>
+                                                        <div class="ranking">Rank it</div>
+
+                                                            <div class="recipe-ranking">
+                                                                <span><i class="fa fa-star"  href="#">&nbsp; &nbsp;| </i></span> 
+                                                                <span><a href="#"> 165 </a></span>
+                                                            </div>
+                                                    </li>
+                                                </ul>
+                                        </div> 
+                                    </div>
+                                    <!-- // Blog Ranking// -->
+                        
+                        <!-- About The Author -->
+                        <div class="commentbox">
+                            <div class="comment-text">Author</div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="component-content1">
-                        <div class="row">
-                           <div class="col-sm-9 col-md-12">
-                               <div class="the-author-thumbnail">
-                                   <img src="<?php echo $base_url ?>img/chef/dimple-fin.png" alt="Haze" class="img-responsive">
-                               </div>  
-                               <br>
-                               <div class="the-author-small-bio">
-                                       <div class="the-author-name">
-                                           <h1> Haze </h1>
-                                       <!-- Paragraph-->                                    
-                                       <p> Haze is the founder of Organeek. She loves animals, plants and everything that encompasses nature and though she lives in the city most of her life, she believes that everything that nature gives us is a gift that we must protect, nurture and celebrate. </p>
-                                         <br>
-                                       <p> Subscribe to receive all the latest updates, recipes and articles by 2 simple steps!</p>
-                                       </div>
-                                       <br>
-                                       <form role="form">
-                                               <div class="form-group">
-                                                       <input class="form-control" type="text" placeholder="Your name" />
-                                               </div>
-                                               <div class="form-group">
-                                                       <input class="form-control" type="email" placeholder="Your email" />
-                                               </div>
-                                               <button class="btn btn-danger" type="button">Subscribe</button>
-                                       </form>
 
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="padd1"> </div>
-                    <!-- // About The Author// -->
-                    
-                    <!-- Related Post Start -->
-                    
-                    
-                    <!-- Related Post End --> 
+                        <div class="component-content1">
+                            <div class="row">
+                               <div class="col-sm-12 col-md-12">
+                                   <div class="the-author-thumbnail">
+                                       <img src="<?php echo $base_url ?>img/chef/dimple-fin.png" alt="Haze" class="img-responsive">
+                                   </div>  
+                                   <br>
+                                   <div class="the-author-small-bio">
+                                           <div class="the-author-name">
+                                               <h1> Haze </h1>
+                                           <!-- Paragraph-->                                    
+                                           <p> Haze is the founder of Organeek. She loves animals, plants and everything that encompasses nature and though she lives in the city most of her life, she believes that everything that nature gives us is a gift that we must protect, nurture and celebrate. </p>
+                                             <br>
+                                           <p> Subscribe to receive all the latest updates, recipes and articles by 2 simple steps!</p>
+                                           </div>
+                                           <br>
+                                           <form role="form">
+                                                   <div class="form-group">
+                                                           <input class="form-control" type="text" placeholder="Your name" />
+                                                   </div>
+                                                   <div class="form-group">
+                                                           <input class="form-control" type="email" placeholder="Your email" />
+                                                   </div>
+                                                   <button class="btn btn-danger" type="button">Subscribe</button>
+                                           </form>
+                                        </div>
+                                    </div>
+                                 </div>
+                             </div>
+                             <!-- //About The Author// -->
 
-                    <!-- Comment Section -->
-                    <div class="commentbox">
-                        <div class="comment-text">
-                        Comment
-                        </div>
-                    </div>
-                    <br>
-                    <div class="blog-post">
-                            <div class="comments">
-                                    <ul class="comment-list">
-                                            <li class="comment">
-                                                    <a class="pull-left" href="#">
-                                                        <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
-                                                    </a>
-                                                    <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
-                                                    <div class="cmeta">Commented on 26/1/2014</div>
-                                                    <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
-                                                    <div class="clearfix"></div>
-                                            </li>
-                                            <li class="comment reply">
-                                                    <a class="pull-left" href="#">
-                                                            <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
-                                                    </a>
-                                                    <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
-                                                    <div class="cmeta">Commented on 02/2/2014</div>
-                                                    <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
-                                                    <div class="clearfix"></div>
-                                            </li>
-                                    </ul>
-                                <div class="clearfix"></div>
-                            </div><!--/ Comment section end -->
-                        </div><!--/ Blog post class end -->
-                
-                    
-                    <!--  Start Comment Posting -->
-                    <div class="respond well">
-                        <div class="title"><h5>Post Reply</h5></div>
-                            <div class="form">
-                                    <form class="form-horizontal" role="form" action="recipe-single.php?id=<?php echo $id; ?>" method="post">
-                                            <div class="form-group">
-                                                    <label for="name" class="col-lg-2 control-label">Name</label>
-                                                    <div class="col-lg-10">
-                                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                                                    </div>
-                                            </div>
-                                            <div class="form-group">
-                                                    <label for="email" class="col-lg-2 control-label">Email</label>
-                                                    <div class="col-lg-10">
-                                                        <input type="email" class="form-control" id="email" name="email_add" placeholder="Email">
-                                                    </div>
-                                            </div>
-                                            <div class="form-group">
-                                                    <label for="website" class="col-lg-2 control-label">Website</label>
-                                                    <div class="col-lg-10">
-                                                    <input type="text" class="form-control" id="website" name="website" placeholder="Website">
-                                                    </div>
-                                            </div>
-                                            <div class="form-group">
-                                                    <label class="control-label col-lg-2" for="comment">Comment</label>
-                                                    <div class="col-lg-10">
-                                                         <textarea class="form-control" id="comment" rows="3" name="comment" placeholder="Comment"></textarea>
-                                                    </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                    <div class="col-lg-offset-2 col-lg-10">
-                                                            <button type="submit" class="btn btn-danger btn-sm">Submit</button> &nbsp;
-                                                            <button type="reset" class="btn btn-default btn-sm">Reset</button>
-                                                    </div>
-                                            </div>
-                                    </form>
+                            <!-- Comment Section -->
+                            <div class="commentbox">
+                                <div class="comment-text">
+                                Comment
                                 </div>
                             </div>
+                            <br>
+                            <div class="blog-post">
+                                    <div class="comments">
+                                            <ul class="comment-list">
+                                                    <li class="comment">
+                                                            <a class="pull-left" href="#">
+                                                                <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
+                                                            </a>
+                                                            <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
+                                                            <div class="cmeta">Commented on 26/1/2014</div>
+                                                            <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
+                                                            <div class="clearfix"></div>
+                                                    </li>
+                                                    <li class="comment reply">
+                                                            <a class="pull-left" href="#">
+                                                                    <img class="avatar" src="<?php echo $base_url ?>img/user.jpg" alt="" />
+                                                            </a>
+                                                            <div class="comment-author"><a href="#">Uiousve Rsionsha</a></div>
+                                                            <div class="cmeta">Commented on 02/2/2014</div>
+                                                            <p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat.</p>
+                                                            <div class="clearfix"></div>
+                                                    </li>
+                                            </ul>
+                                        <div class="clearfix"></div>
+                                    </div><!--//Comment// -->
+                                </div><!--//Blog Post// -->
 
-                        <!-- // Comment Posting //-->
-                                                                    
-                        <!-- Next/Previous Navigation -->
-                            <div class="navigation button">  
-                                    <div class="pull-left">
-                                        <a href="blog.html" class="btn btn-danger btn-sm">&laquo; Previous </a>
+                                <!-- Comment Posting -->
+                                <div class="respond">
+                                    <div class="title"><h5>Post Reply</h5></div>
+                                        <div class="form">
+                                            <form class="form-horizontal" role="form" action="recipe-single.php?id=<?php echo $id; ?>" method="post">
+                                                    <div class="form-group">
+                                                            <label for="name" class="col-lg-2 control-label">Name</label>
+                                                            <div class="col-lg-10">
+                                                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                                            </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="email" class="col-lg-2 control-label">Email</label>
+                                                            <div class="col-lg-10">
+                                                                <input type="email" class="form-control" id="email" name="email_add" placeholder="Email">
+                                                            </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="website" class="col-lg-2 control-label">Website</label>
+                                                            <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="website" name="website" placeholder="Website">
+                                                            </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label class="control-label col-lg-2" for="comment">Comment</label>
+                                                            <div class="col-lg-10">
+                                                                 <textarea class="form-control" id="comment" rows="3" name="comment" placeholder="Comment"></textarea>
+                                                            </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                            <div class="col-lg-offset-2 col-lg-10">
+                                                                    <button type="submit" class="btn btn-danger btn-sm">Submit</button> &nbsp;
+                                                                    <button type="reset" class="btn btn-default btn-sm">Reset</button>
+                                                            </div>
+                                                    </div>
+                                            </form>
+                                        </div>
                                     </div>
-                                    <div class="pull-right">
-                                            <a href="blog.html" class="btn btn-danger btn-sm">Next  &raquo;</a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                            </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- //Next/Previous Navigation// -->
-                    
-                    <div class="padd1"> </div>
-                      
-                     <!-- Sidebar-->
+                                <!-- //Comment Post//-->
+
+                                <!-- Next/Previous Navigation -->
+                                <div class="navigation button padd1">  
+                                        <div class="pull-left">
+                                            <a href="blog.html" class="btn btn-danger btn-sm">&laquo; Previous </a>
+                                        </div>
+                                        <div class="pull-right">
+                                                <a href="blog.html" class="btn btn-danger btn-sm">Next  &raquo;</a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                </div>
+                                <!-- //Next/Previous Navigation// -->
+                                
+                            </div>    
+                            
+                            <!-- Sidebar-->
                                 <?php include '../../sidebar-blog.php'; ?>
-                                <!--//Sidebar//-->
-                        </div><!--//Row//-->
-                    </div><!-- // Blog // -->
-                </div><!-- //Body Wrapper// -->	
+                            <!--//Sidebar//-->
+                            </div><!--//Row//-->
+                        </div><!-- // Blog // -->
+                    </div><!-- //Body Wrapper// -->	
 
-                <!-- Footer -->
-                <?php include '../../footer.php'; ?>
-                <!--//Footer//-->
-                    
-                <!-- Scroll to top -->
-                <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
-		
-		
-		<!-- Javascript files -->
-		<!-- jQuery -->
-		<script src="../../js/jquery.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="../../js/bootstrap.min.js"></script>
-		<!-- Pretty Photo JS -->
-		<script src="../../js/jquery.prettyPhoto.js"></script>
-		<!-- Respond JS for IE8 -->
-		<script src="../../js/respond.min.js"></script>
-		<!-- HTML5 Support for IE -->
-		<script src="../../js/html5shiv.js"></script>
-		<!-- Custom JS -->
-		<script src="../../js/custom.js"></script>
-		<!-- JS code for this page -->
+                    <!-- Footer -->
+                    <?php include '../../footer.php'; ?>
+                    <!--//Footer//-->
+
+                    <!-- Scroll to top -->
+                    <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
+
+
+                    <!-- Javascript files -->
+                    <!-- jQuery -->
+                    <script src="../../js/jquery.js"></script>
+                    <!-- Bootstrap JS -->
+                    <script src="../../js/bootstrap.min.js"></script>
+                    <!-- Pretty Photo JS -->
+                    <script src="../../js/jquery.prettyPhoto.js"></script>
+                    <!-- Respond JS for IE8 -->
+                    <script src="../../js/respond.min.js"></script>
+                    <!-- HTML5 Support for IE -->
+                    <script src="../../js/html5shiv.js"></script>
+                    <!-- Custom JS -->
+                    <script src="../../js/custom.js"></script>
+                    <!-- JS code for this page -->
 		
 	</body>	
 </html>

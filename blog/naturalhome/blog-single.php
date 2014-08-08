@@ -245,7 +245,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                         <div class="col-md-4 col-xs-4"> 
                                                 <ul class=box1>
                                                     <li>
-                                                        <div class="ranking">Made it</div>
+                                                        <div class="ranking">Read it</div>
 
                                                             <div class="recipe-ranking">
                                                                 <span><i class="fa fa-check"  href="#">&nbsp; &nbsp;| </i></span> 

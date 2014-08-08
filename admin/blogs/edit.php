@@ -575,13 +575,19 @@ function createThumbs( $pathToImages, $pathToThumbs, $thumbWidth )
                                         <div class="form-group">
                                             <label>Sub Category</label>
                                             <select class="form-control" name="sub_category">
-                                                <option value="<?php echo $blog->sub_category ?>"><?php echo $blog->sub_category ?></option>
-                                                <option value="Face">Face</option>
-                                                <option value="Body_and_Skin_Care">Body and Skin Care</option>
+                                                <option value="--">--</option>
+                                                <option value="Body_Skin_Care">Body & Skin Care</option>
+                                                <option value="Eye_Care">Eye Care</option>
+                                                <option value="Face_Care">Face Care</option>
                                                 <option value="Hair">Hair</option>
+                                                <option value="Hands_Feet">Hands & Feet</option>
+                                                <option value="Oral_Care">Oral Care</option>
                                                 <option value="Personal_Hygiene">Personal Hygiene</option>
+                                                <option value="Health">Health</option>
+                                                <option value="Exercise">Exercise</option>
+                                                <option value="Gardening">Gardening</option>
                                                 <option value="Household_Products">Household Products</option>
-                                                <option value="Wellness">Wellness</option>
+                                                <option value="Kitchen">Kitchen</option>
                                             </select>
                                         </div>
                                         
